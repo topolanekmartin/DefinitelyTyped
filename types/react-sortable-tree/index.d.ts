@@ -211,6 +211,7 @@ export interface ReactSortableTreeProps extends ThemeTreeProps {
     shouldCopyOnOutsideDrop?: boolean | ((data: ShouldCopyData) => boolean);
     className?: string;
     isVirtualized?: boolean;
+    isDynamicRowHeight?: boolean;
 }
 
 declare const SortableTree: React.ComponentType<ReactSortableTreeProps>;
